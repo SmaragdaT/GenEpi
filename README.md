@@ -4,7 +4,7 @@ Package developed by Smaragda Tsairidou 9.16-9.17 (Tsairidou et al. 2017)
 
 SIR model code developed by Osvaldo Anacleto (Anacleto et al. 2015)
 
-The package contains 3 functions and one data file:
+The package contains 3 functions:
 
 1) Sel_DataGen.R: The main function.  
    It internally calls the other functions and returns the results. Specifically this program calculates response to selection for susceptibility and for infectivity, generates new populations after selection, and simulates epidemics following an SIR model. 
@@ -15,7 +15,7 @@ The package contains 3 functions and one data file:
 
 3) SimEpi_SIR.R: Generates data from a stochastc SIR model and produces the list with the SIR data frame as time series (SIRts), and on population level (pop). If (reprnum=T) only the infectivity of the index cases is accounted for in the calculation of the infection rate, and the output of the analysis can be used for the calculation of the reproduction number R0.    
 
-4) seed_data.txt: To run the function a file containing seeds for each replicate is required in the working directory. This file is provided by the user.
+Note: to run the main function a file containing seeds for each replicate is required in the working directory. This file is provided by the user and named "seed_data.txt".
 
 Parameters in Sel_DataGen.R:
 
