@@ -1,0 +1,15 @@
+Package: GenEpiSim
+Title: Response to selection for susceptibility and infectivity in epidemic severity and risk
+Version: 0.1.0
+Author: Smaragda Tsairidou & Osvaldo Anacleto
+Maintainer: Smaragda Tsairidou <Smaragda.Tsairidou@roslin.ed.ac.uk>
+Description: Calculates response to selection for susceptibility and infectivity, generates new populations after selection, and simulates epidemics following an SIR model.
+Depends: R (>= 3.3.3)
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    MASS,
+    stats,
+    utils
+RoxygenNote: 6.0.1.9000
