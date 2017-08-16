@@ -1,5 +1,5 @@
-#' @title Main function (developped by Smaragda Tsairidou 7.9.16) 
-#' @description Calculates response to selection for susceptibility and infectivity and generates new population (function "SimSel" created by S. Tsairidou), and simulates epidemics based on an SIR model (function "SIRdataGen" created by O. Anacleto)
+#' @title Main function 
+#' @description Calculates response to selection for susceptibility and infectivity and generates new populations (function "SimSel" developed by Smaragda Tsairidou 7.9.16), and simulates epidemics based on an SIR model (function "SIRdataGen" developed by Osvaldo Anacleto)
 #' @param nReps number of replicates
 #' @param nGens number of generations
 #' @param r.g selection accuracy for susceptibility
