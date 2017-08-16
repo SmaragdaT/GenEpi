@@ -11,7 +11,7 @@ The package contains 3 functions and one data file:
    It generates the following data files: "Inf_Stat_" with population and epidemic descriptive statistics and assessment measures of epidemic severity and duration; "SIRtime_" with number of Susceptible, Infected and Recovered individuals at time-points; and, "Pop_#repl_#gen_Susc_Inf_" if (save.pop=T), saving all data for each population in each generation and replicate. 
    The user can modify the parameter values when calling this function (see below). 
 
-2) SimRespSel_inf_susc.R: Function to calculate Response to selection for susceptibility and infectivity over generations. It calculates response to selection by calculating the change in the mean and variance of susceptibility and infectivity over generations. 
+2) RespSelCalc_inf_susc.R: Function to calculate Response to selection for susceptibility and infectivity over generations. It calculates response to selection by calculating the change in the mean and variance of susceptibility and infectivity over generations. 
 
 3) SimEpi_SIR.R: Generates data from a stochastc SIR model and produces the list with the SIR data frame as time series (SIRts), and on population level (pop). If (reprnum=T) only the infectivity of the index cases is accounted for in the calculation of the infection rate, and the output of the analysis can be used for the calculation of the reproduction number R0.    
 
