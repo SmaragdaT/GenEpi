@@ -4,6 +4,10 @@ Package developed by Smaragda Tsairidou 9.16-9.17 (Tsairidou et al. 2017)
 
 SIR model code developed by Osvaldo Anacleto (Anacleto et al. 2015)
 
+This package can be used for calculating response to genetic selection for lower susceptibility and/or infectivity following standard quantitative genetics theory assuming polygenic genetic variation, and then simulating epidemics on the selected populations following a stochastic SIR (Susceptible, Infected, Recovered) epidemiological model, to evaluate the change in epidemic severity and risk due to selection over generations.
+
+To use the package call the main function Sel_DataGen.R setting the parameter values such as selection accuracy, selection intensity, genetic variances for the traits, etc (see example below). 
+
 The package contains 3 functions:
 
 1) Sel_DataGen.R: The main function.  
