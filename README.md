@@ -1,4 +1,5 @@
 # GenEpiSim
+https://zenodo.org/badge/latestdoi/190372314
 
 Package developed by Smaragda Tsairidou 9.16-9.17 (Tsairidou et al. 2017)
 
