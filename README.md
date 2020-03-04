@@ -1,11 +1,11 @@
 # GenEpiSim
-https://zenodo.org/badge/latestdoi/190372314
+https://zenodo.org/badge/latestdoi/190372314 
 
 Package developed by Smaragda Tsairidou 9.16-9.17 (Tsairidou et al. 2017)
+SIR model code developed by Osvaldo Anacleto (Anacleto et al. 2015)
 
 S. Tsairidou, O. Anacleto, J.A. Woolliams, A. Doeschl-Wilson. 2019. Enhancing genetic disease control by selecting for lower host infectivity and susceptibility. Heredity. https://doi.org/10.1038/s41437-018-0176-9 
 
-SIR model code developed by Osvaldo Anacleto (Anacleto et al. 2015)
 
 This package can be used for calculating response to genetic selection for lower susceptibility and/or infectivity following standard quantitative genetics theory assuming polygenic genetic variation, and then simulating epidemics on the selected populations following a stochastic SIR (Susceptible, Infected, Recovered) epidemiological model, to evaluate the change in epidemic severity and risk due to selection over generations.
 
